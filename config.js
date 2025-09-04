@@ -7,8 +7,8 @@ function convertToBool(text, fault = "true") {
 }
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "jPJiSQjR#KbZc-Ma7r4zzZrSFO-5BWhp3_YYq6pus_h5fmW5ACNw",
-  OWNER_NUM: process.env.OWNER_NUM || "94726228243",
+  SESSION_ID: process.env.SESSION_ID || "ueJFkChQ#_FuqYxPakZTFFs0XSepf4Iyd4cNp6hFdX4xIBwGdHUA",
+  OWNER_NUM: process.env.OWNER_NUM || "2349020561787",
   PREFIX: process.env.PREFIX || ".",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || "true",
@@ -16,10 +16,10 @@ module.exports = {
   AUTO_STATUS_LIKE: process.env.AUTO_STATUS_LIKE || "true", 
   AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING || "false"), 
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE || "true"),
-  AUTO_VOICE: process.env.AUTO_VOICE || "true",
-  AUTO_CHAT_GF: process.env.AUTO_CHAT_GF || "true",
-  AUTO_STICKER: process.env.AUTO_STICKER || "true",
-  AUTO_REPLY: process.env.AUTO_REPLY || "true",
+  AUTO_VOICE: process.env.AUTO_VOICE || "false",
+  AUTO_CHAT_GF: process.env.AUTO_CHAT_GF || "false",
+  AUTO_STICKER: process.env.AUTO_STICKER || "false",
+  AUTO_REPLY: process.env.AUTO_REPLY || "false",
   OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ew4vew.jpg",
   AUTO_REACT: convertToBool(process.env.AUTO_REACT || "true"),
